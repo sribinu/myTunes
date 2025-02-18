@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  font-family: "PT Sans", sans-serif;
+  color: #fff;
+}
+
+nav {
+  height: 40px;
+  background-color: #333333;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0px 22px;
+}
+
+.a:hover {
+  background-color: #555;
+  height: 53px;
+  line-height: 53px;
+}
+
+#section1 {
+  height: 94vh;
+  background-image: url("../assets/showcase.jpeg");
+  background-size: cover;
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#heading1 {
+  font-size: 58px;
+}
+
+#heading2 {
+  font-size: 30px;
+}
+
+#para1 {
+  font-size: 21px;
+  padding: 0px 150px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#section2 {
+  height: 180vh;
+  background-color: #252529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+#h2 {
+  color: #fff;
+  margin-top: 0px;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+#h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#para2 {
+  color: #fff;
+  font-size: 21;
+  padding: 0px 240px;
+  line-height: 1.6;
+}
+
+#redbutton {
+  background-color: #b90415;
+  padding: 25px 20px;
+}
+
+#redbutton:hover {
+  background-color: #d3071b;
+}
+
+#section2 p {
+  font-size: 16px;
+}
+
+#section3 {
+  height: 190vh;
+  display: flex;
+  color: #252529;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+#s3h2 {
+  color: #252529;
+  font-size: 32px;
+}
+
+#s3p {
+  color: #252529;
+  font-size: 20px;
+  padding: 0px 170px;
+  line-height: 30px;
+}
+
+#bluebutton {
+  background-color: #103063;
+  padding: 20px 18px;
+}
+
+#bluebutton:hover {
+  background-color: #143f85;
+}
+
+#section4 {
+  height: 76vh;
+  background-image: url("../assets/section-bg.jpeg");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+#s4h3 {
+  font-size: 32px;
+}
+
+#para3 {
+  font-size: 21px;
+  margin: 0px 140px;
+  line-height: 35px;
+}
+
+#section5 {
+  display: flex;
+  color: black;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  gap: 50px;
+}
+
+#s5h2,
+#para4,
+#para5 {
+  color: black;
+}
+
+#redeem {
+  color: #103063;
+}
+#side {
+  margin-top: 100px;
+  height: 400px;
+  width: 550px;
+}
+
+#section6 {
+  height: 37vh;
+  background-color: #252529;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  line-height: 26px;
+  font-weight: 100;
+}
+
+.lists {
+  width: 250px;
+}
+
+#section7 {
+  height: 50px;
+  background-color: #333333;
+  text-align: center;
+  line-height: 50px;
+}
